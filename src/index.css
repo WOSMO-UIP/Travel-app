@@ -5,22 +5,7 @@
 
 @layer base{
    button {
-    @apply border py-2 px-3 rounded-full
+    @apply  relative rounded-md bg-white hover:bg-purple-950 hover:text-white border-0 py-2 px-4 shadow-lg transition-colors duration-300 ease-in-out hover:shadow-2xl 
   } 
-  /* .btn {
-    @apply relative inline-flex items-center justify-center p-0.5 mb-2 mr-2 overflow-hidden text-sm font-medium text-gray-900 rounded-lg bg-gradient-to-br from-purple-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800;
-  }
-
-  .btn::before {
-    @apply absolute inset-0 bg-white dark:bg-gray-900 rounded-md transition-all ease-in duration-75;
-    content: "Purple to blue";
-  }
-
-  .btn:hover::before {
-    @apply bg-opacity-0;
-  } */
 }
 
-body{
-  background: rgba(255, 29, 255, 0.18);
-}

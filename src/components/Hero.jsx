@@ -4,7 +4,7 @@ function Hero() {
     return (
         <div className='w-full h-screen '>
            <img className='top-0 left-0 w-full h-screen object-cover' src={bgImg} alt="/" /> 
-            <div className='bg-purple-950/20 absolute top-0 left-0 w-full h-screen' />
+            <div className='bg-purple-950/5 absolute top-0 left-0 w-full h-screen' />
             <div className='absolute top-0  w-full h-full flex flex-col justify-center text-purple-100 text-shadow-2xl'>
                 <div className='md:left-[10%] max-w-[1100px] m-auto  absolute p-4'>
                     <p>All Inclusive</p>
@@ -14,7 +14,7 @@ function Hero() {
                     {/* <button class="relative rounded-full bg-transparent backdrop-filter backdrop-blur-md hover:bg-purple-950 hover:text-white border-2 border-purple-950 py-2 px-4 transition-colors duration-300 ease-in-out">
                         Reserve Now
                     </button> */}
-                    <button class=" relative rounded-full bg-transparent backdrop-filter backdrop-blur-md hover:bg-purple-950 hover:text-white border-0 py-2 px-4 shadow-lg transition-colors duration-300 ease-in-out hover:shadow-2xl "> 
+                    <button class=" text-purple-950 bg-purple-50"> 
                         Reserve Now
                     </button>
                 </div>

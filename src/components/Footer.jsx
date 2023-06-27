@@ -4,7 +4,9 @@ import { TiSocialPinterest } from 'react-icons/ti';
 
 const Footer = () => {
     return (
-        <div className='w-full mt-24 bg-purple-950 text-purple-300  py-2 px-2'>
+        <div className='w-full mt-24  text-purple-300  py-2 px-2' style={{ 
+            backgroundImage: 'linear-gradient(45deg, black, #10001d)',
+          }}>
             <div className='max-w-[1400px] mx-auto grid grid-cols-2 md:grid-cols-6 border-b-2 border-purple-600 py-8 px-4'>
                 <div>
                     <h6 className='font-bold uppercare pt-2'>Solutions</h6>
@@ -52,7 +54,7 @@ const Footer = () => {
                     </p>
                     <form className='flex flex-col sm:flex-row'>
                         <input className='w-full p-2  mr-4 rounded-md mb-4 placeholder:text-purple-950   text-purple-950 font-semibold' type='email' placeholder='Enter email..' />
-                        <button className='p-2 mb-4 rounded-md hover:bg-purple-100 hover:text-purple-950 duration-200 font-semibold hover:shadow-lg'>Subscribe</button>
+                        <button className='p-2 mb-4 rounded-md  text-purple-950 font-semibold  '>Subscribe</button>
                     </form>
                 </div>
             </div>
@@ -62,10 +64,18 @@ const Footer = () => {
                 <div className='flex justify-between sm:w-[300px] pt-4 text-2xl text-purple-300 '>
 
 
-                    <a href="#"><i class="fa-brands fa-instagram instagram text-purple-300  hover:text-slate-50 duration-150 hover:shadow-lg"></i></a>
-                    <a href="#"><i class="fa-brands fa-whatsapp whatsapp text-purple-300  hover:text-slate-50 duration-150 hover:shadow-lg"></i></a>
-                    <a href="#"><i class="fa-brands fa-twitter twitter text-purple-300  hover:text-slate-50 duration-150 hover:shadow-lg"></i></a>
-                    <a href="#"><i class="fa-brands fa-github github text-purple-300  hover:text-slate-50 duration-150 hover:shadow-lg"></i></a>
+                    <a href="https://www.instagram.com/the_uip/ " target='_blank'>
+                        <i class="fa-brands fa-instagram instagram text-purple-300  hover:text-slate-50 duration-150 hover:shadow-lg"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/muhammad-wasif-malik-79205a1bb/" target='_blank'>
+                        <i class="fab fa-linkedin linkedin text-purple-300 hover:text-slate-50 duration-150 hover:shadow-lg"></i>
+                    </a>
+                    <a href="https://twitter.com/WASIFMA55007901" target='_blank'>
+                        <i class="fa-brands fa-twitter twitter text-purple-300  hover:text-slate-50 duration-150 hover:shadow-lg"></i>
+                        </a>
+                    <a href="https://github.com/WOSMO-UIP" target='_blank'>
+                        <i class="fa-brands fa-github github text-purple-300  hover:text-slate-50 duration-150 hover:shadow-lg"></i>
+                    </a>
 
                 </div>
             </div>
