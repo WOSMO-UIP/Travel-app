@@ -59,11 +59,9 @@ const Footer = () => {
                 </div>
             </div>
 
-            <div className='flex flex-col max-w-[1400px] px-2 py-4 mx-auto justify-between sm:flex-row text-center text-purple-300 '>
+            <div className='flex flex-col max-w-[1400px] px-10 py-4 mx-auto justify-between sm:flex-row text-center text-purple-300 '>
                 <p className='py-4 text-purple-300 '>2022 Experiences, LLC. All rights reserved</p>
                 <div className='flex justify-between sm:w-[300px] pt-4 text-2xl text-purple-300 '>
-
-
                     <a href="https://www.instagram.com/the_uip/ " target='_blank'>
                         <i class="fa-brands fa-instagram instagram text-purple-300  hover:text-slate-50 duration-150 hover:shadow-lg"></i>
                     </a>
